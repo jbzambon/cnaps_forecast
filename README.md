@@ -31,8 +31,10 @@ Do you want to continue? [Y/n] Y
 
 Run png2mp4.sh script to backup original pngs, convert png to jpg, add logos, and create a mp4.
 
+```
 (hr72_panel6) ubuntu@ip-172-31-90-200:~/cnaps$ ./png2mp4.sh 
 ..... scripting .....
+```
 
 MP4 is called temp.mp4, download it to wherever you want to watch it.
 ```
