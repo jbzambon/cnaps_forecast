@@ -19,7 +19,7 @@ Input number of hours to plot
 ```
 Now you should have several (25) png images prefixed "cnaps_XX" where XX are the individual frames.
 
-To create an animation, you need to install ImageMagick and avconv...
+To create an animation, you need to install ImageMagick and ffmpeg...
 ```
 (hr72_panel6) ubuntu@ip-172-31-90-200:~/cnaps$ sudo apt install imagemagick-6.q16 
 Do you want to continue? [Y/n] Y
