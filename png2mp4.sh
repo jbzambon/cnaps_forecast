@@ -1,7 +1,9 @@
 #!/bin/sh
 # 
-
-# utility script to combine ordered pngs into a mp4 animation
+# Joseph B. Zambon
+# jbzambon@ncsu.edu
+#
+# Utility script to combine ordered pngs into a mp4 animation
 #
 # 21 June 2011
 # Updated: 27 August 2015
