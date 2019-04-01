@@ -1,10 +1,11 @@
 #!/bin/sh
-#
+# 
 
 # utility script to combine ordered pngs into a mp4 animation
 #
 # 21 June 2011
 # Updated: 27 August 2015
+# Updated: 1 April 2019 (replaced deprecated avconv with ffmpeg
 
 #desired framerate of movie (frames/sec)
 r=5
@@ -38,5 +39,5 @@ do
   iter=`expr $iter + 1`
 done
 
-avconv -r $r -i %03d.jpg -s $w"x"$h -b 20000000 temp.mp4
-
+#avconv -r $r -i %03d.jpg -s $w"x"$h -b 20000000 temp.mp4
+ffmpeg -r $r -f image2 -s $w"x"$h -i %03d.jpg -vcodec libx264 -crf 25  -pix_fmt yuv420p temp.mp4
